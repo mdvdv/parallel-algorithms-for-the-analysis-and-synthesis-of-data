@@ -25,8 +25,9 @@ int main(int argc, char** argv)
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     
-    for (i = 0; i < n; i++) a[i] = i + rank + 1;
+    for (i = 0; i < n; i++)
     {
+	a[i] = i + rank + 1;
 	cout << "Process: " << rank << " a[0]: " << a[0] << endl;
     }
     
