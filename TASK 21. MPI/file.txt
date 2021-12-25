@@ -1,0 +1,2 @@
+Understand the new functions in Assignment21.c, complete the program according to the assignment, explain the execution of the program.
+Create a file and fill it with bulky text, output the content in parallel. Change the step of reading the contents of the file and the number of characters to be output by each process.
